@@ -6,7 +6,7 @@ import com.oswaldo.tiendakotlin.R
 import android.util.Pair
 import com.oswaldo.tiendakotlin.models.BindableString
 
-class BindEditText {
+open class BindEditText {
 
     companion object {
         @BindingAdapter("app:binding")
